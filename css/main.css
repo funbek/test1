@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+ #layer1 {
+    width: 100%;
+    padding: 10px 2px 8px 20px;
+    background: #fc0;
+    margin: 10px;
+    border: 2px dashed green;
+}
+
+#layer2 {
+    width: 100%;
+    background: #cc0;
+}
+
+#layer3 {
+    background: #3ca;
+    padding: 10px;
+}
+
+.my-list {
+    margin: 20px 0px;
+}
+
+.my-list__item {
+    background: blue;
+    color: #dc219a;
+    font-size: 40px;
+    padding: 30px;
+    margin-bottom: 89px;
+}
+
+.my-list__item:last-child {
+    background: burlywood;
+    margin-bottom: 0px;
+}
